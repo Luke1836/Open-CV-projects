@@ -8,7 +8,6 @@ for x in os.listdir(DIR):
     people.append(x)
 
 haar_cascade = cv.CascadeClassifier('Code\haar_cascade.xml')
-
 features = []
 labels = []
 
