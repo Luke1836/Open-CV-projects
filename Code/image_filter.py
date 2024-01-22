@@ -16,4 +16,6 @@ cv.imshow('Crop', crop)
 
 dilated = cv.dilate(img, (3,3), iterations=5)
 cv.imshow('Dilated', dilated)
+
+cv.destroyAllWindows()
 cv.waitKey(0)
